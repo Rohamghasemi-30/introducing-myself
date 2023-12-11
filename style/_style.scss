@@ -1,0 +1,423 @@
+body.dark {
+  background-color: #000000;
+  main {
+    header {
+      nav {
+        h1 {
+          color: #ffffff;
+        }
+        ul {
+          li {
+            a {
+              color: #ffffff;
+            }
+            a:hover {
+              color: rgb(75, 75, 75);
+            }
+          }
+          button {
+            color: #ffffff;
+          }
+          button:hover {
+            color: rgb(75, 75, 75);
+          }
+        }
+      }
+    }
+    .type {
+      color: #ffffff;
+    }
+    h3 {
+      color: #fff;
+    }
+    h1 {
+      color: #fff;
+    }
+    section {
+      .slide-container {
+        .slide-content {
+          .card-wrapper {
+            .card {
+              border-radius: 25px;
+              background-color: #ffffff;
+              .card-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px 14px;
+                h2 {
+                  color: #000000;
+                }
+                p {
+                  color: #000000;
+                }
+                .button {
+                  border: none;
+                  font-size: 16px;
+                  padding: 8px 16px;
+                  background-color: #4070f4;
+                  border-radius: 6px;
+                  a {
+                    color: #ffffff;
+                  }
+                }
+                .button:hover {
+                  background-color: #0005ff;
+                  transition: all 0.5s;
+                  a {
+                    color: #000000;
+                  }
+                }
+              }
+              .card-image {
+                .card-img {
+                  height: 200px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .about {
+        color: #ffffff;
+        .Description {
+          p {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}
+body {
+  main {
+    header {
+      justify-content: center;
+      nav {
+        width: 1400px;
+        height: 560px;
+        background-image: url(/images/creating\ value\ banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        padding: 30px;
+        flex-direction: column;
+        h1 {
+          a {
+            font-size: 40px;
+            background: -webkit-linear-gradient(blue, red);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+        ul {
+          gap: 30px;
+          padding: 30px;
+          li {
+            a {
+              text-decoration: none;
+              color: #000000;
+              font-size: 25px;
+            }
+            a:hover {
+              color: rgb(100, 96, 96);
+            }
+          }
+          button {
+            border: none;
+            background-color: #00000000;
+            font-size: 25px;
+          }
+          button:hover {
+            color: rgb(100, 96, 96);
+          }
+        }
+      }
+    }
+    .type {
+      justify-content: center;
+    }
+    section {
+      .project {
+        justify-content: center;
+      }
+      .box-images {
+        justify-content: space-evenly;
+        background: linear-gradient(270deg, blue, red, yellow);
+        background-size: 800% 800%;
+
+        -webkit-animation: AnimationName 15s ease infinite;
+        -moz-animation: AnimationName 15s ease infinite;
+        animation: AnimationName 15s ease infinite;
+      }
+
+      @-webkit-keyframes AnimationName {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      @-moz-keyframes AnimationName {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      @keyframes AnimationName {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      .radeos {
+        border-radius: 15px;
+      }
+      svg {
+        opacity: 0.4;
+      }
+      svg:hover {
+        opacity: 1;
+      }
+      .value {
+        padding: 50px;
+        flex-direction: column;
+        width: 80%;
+        gap: 50px;
+        .purple {
+          background-image: linear-gradient(90deg, rgb(64, 64, 99), #a24ff0);
+        }
+      }
+      .box-svg {
+        justify-content: space-evenly;
+        background: linear-gradient(270deg, #0005ff, #f199ff, #f9ff00, #af00ff);
+        background-size: 800% 800%;
+
+        -webkit-animation: AnimationName 15s ease infinite;
+        -moz-animation: AnimationName 15s ease infinite;
+        animation: AnimationName 15s ease infinite;
+      }
+
+      @-webkit-keyframes AnimationName {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      @-moz-keyframes AnimationName {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      @keyframes AnimationName {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      svg {
+        opacity: 0.4;
+      }
+      svg:hover {
+        opacity: 1;
+      }
+      .value-two-part {
+        padding: 50px;
+        flex-direction: column;
+        width: 80%;
+        gap: 50px;
+        .programming {
+          .python {
+            background-image: linear-gradient(90deg, blue, rgb(255, 196, 0));
+          }
+        }
+        .C {
+          background-color: purple;
+        }
+        .figma {
+          background-color: rgb(255, 166, 0);
+        }
+        .pink {
+          background-color: rgb(255, 181, 193);
+        }
+      }
+      .slide-container {
+        max-width: 90%;
+        width: 100%;
+        padding: 40px 0;
+        background-image: url(/images/تصویر-زمینه-برنامه-نویسی.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        .slide-content {
+          margin: 0 40px;
+          overflow: hidden;
+          border-radius: 25px;
+          .card-wrapper {
+            .card {
+              border-radius: 25px;
+              background-color: #000000;
+              .card-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px 14px;
+                h2 {
+                  color: #ffff;
+                }
+                p {
+                  color: #fff;
+                }
+                .button {
+                  border: none;
+                  font-size: 16px;
+                  color: #fff;
+                  padding: 8px 16px;
+                  background-color: #4070f4;
+                  border-radius: 6px;
+                  a {
+                    color: #ffffff;
+                    text-decoration: none;
+                  }
+                }
+                .button:hover {
+                  background-color: #0005ff;
+                  transition: all 0.5s;
+                  a {
+                    color: #000000;
+                  }
+                }
+              }
+              .card-image {
+                .card-img {
+                  height: 200px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .choose {
+        .selected {
+          .card-best{
+            .card-box-images{
+              img{
+                border-radius: 50%;
+              }
+            }
+          }
+          .typing-box {
+            justify-content: center;
+          }
+        }
+      }
+      .follow {
+        color: #ffffff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(/images/7-Barriers-to-Effective-Communication-Killing-Your-Relationships-1536x614.webp);
+      }
+      .typing-icon {
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+        gap: 40px;
+        .help {
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          font-size: 40px;
+        }
+      }
+      .icon-follow {
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+        gap: 40px;
+      }
+      .icon {
+        gap: 30px;
+        font-size: 30px;
+      }
+      .box-image-follow {
+        width: 50%;
+        justify-content: end;
+        .images-follow {
+          width: 500px;
+        }
+      }
+      .about {
+        .Description {
+          padding: 50px;
+          .Introduction {
+            height: 220px;
+            align-items: end;
+            width: 50%;
+          }
+          .image-about{        
+            img{
+              border-radius: 50px;
+            }
+          }
+          .about-me {
+            justify-content: start;
+            align-items: start;
+            height: 300px;
+            width: 1100px;
+            background-repeat: no-repeat;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY6nCEjBL7eglQLu96__cUvJWx6hqfCnU1uOz3GPBY9OAVwll4Cff35ZaUCZewRFX8SkM&usqp=CAU);
+            p {
+              height: 100px;
+              width: 70%;
+              padding: 40px;
+              padding-right: 80px;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .about-part-two {
+        .Description {
+          .image-about {
+            width: 100%;
+          }
+          .Introduction {
+            width: 50%;
+          }
+          .about-me {
+            padding-right: 100px;
+          }
+        }
+      }
+    }
+  }
+}
